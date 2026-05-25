@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"Automatické vyplňování"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25×</item>
+    <item>0,5×</item>
+    <item>0,75×</item>
+    <item>Normální</item>
+    <item>1,25×</item>
+    <item>1,5×</item>
+    <item>2×</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Posunout vpřed o %d sekundu</item>
+    <item quantity="few">Posunout vpřed o %d sekundy</item>
+    <item quantity="many">Posunout vpřed o %d sekundy</item>
+    <item quantity="other">Posunout vpřed o %d sekund</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Přetočit zpět o %d sekundu</item>
+    <item quantity="few">Přetočit zpět o %d sekundy</item>
+    <item quantity="many">Přetočit zpět o %d sekundy</item>
+    <item quantity="other">Přetočit zpět o %d sekund</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Automatické vyplňování"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Automatické vyplňování"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Přijmout"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Odmítnout"</string>
@@ -13,13 +35,64 @@
     <string msgid="8038256446254964252" name="default_error_message">"Neplatný údaj"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Vyskakovací okno"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Rozbalovací nabídka"</string>
+    <string name="exo_controls_cc_disabled_description">Zapnout titulky</string>
+    <string name="exo_controls_cc_enabled_description">Vypnout titulky</string>
+    <string name="exo_controls_fastforward_description">Rychle vpřed</string>
+    <string name="exo_controls_fullscreen_enter_description">Přejít do režimu celé obrazovky</string>
+    <string name="exo_controls_fullscreen_exit_description">Ukončit režim celé obrazovky</string>
+    <string name="exo_controls_hide">Skrýt ovládací prvky přehrávače</string>
+    <string name="exo_controls_next_description">Další</string>
+    <string name="exo_controls_overflow_hide_description">Skrýt další nastavení</string>
+    <string name="exo_controls_overflow_show_description">Zobrazit další nastavení</string>
+    <string name="exo_controls_pause_description">Pozastavit</string>
+    <string name="exo_controls_play_description">Přehrát</string>
+    <string name="exo_controls_playback_speed">Rychlost</string>
+    <string name="exo_controls_previous_description">Předchozí</string>
+    <string name="exo_controls_repeat_all_description">Aktuálně: Opakovat vše. Zapněte režim opakování.</string>
+    <string name="exo_controls_repeat_off_description">Aktuálně: Nic neopakovat. Zapněte režim opakování.</string>
+    <string name="exo_controls_repeat_one_description">Aktuálně: Opakovat jednu položku. Zapněte režim opakování.</string>
+    <string name="exo_controls_rewind_description">Přetočit zpět</string>
+    <string name="exo_controls_seek_bar_description">Průběh přehrávání</string>
+    <string name="exo_controls_settings_description">Nastavení</string>
+    <string name="exo_controls_show">Zobrazit ovládací prvky přehrávače</string>
+    <string name="exo_controls_shuffle_off_description">Aktivovat náhodné přehrávání</string>
+    <string name="exo_controls_shuffle_on_description">Deaktivovat náhodné přehrávání</string>
+    <string name="exo_controls_stop_description">Zastavit</string>
+    <string name="exo_controls_vr_description">Režim VR</string>
+    <string name="exo_download_completed">Stahování bylo dokončeno</string>
+    <string name="exo_download_description">Stáhnout</string>
+    <string name="exo_download_downloading">Stahování</string>
+    <string name="exo_download_failed">Stažení se nezdařilo</string>
+    <string name="exo_download_notification_channel_name">Stahování</string>
+    <string name="exo_download_paused">Stahování pozastaveno</string>
+    <string name="exo_download_paused_for_network">Stahování čeká na síť</string>
+    <string name="exo_download_paused_for_wifi">Stahování čeká na WiFi</string>
+    <string name="exo_download_removing">Odstraňování staženého obsahu</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativní</string>
+    <string name="exo_track_role_closed_captions">Titulky</string>
+    <string name="exo_track_role_commentary">Komentář</string>
+    <string name="exo_track_role_supplementary">Dodatkové</string>
+    <string name="exo_track_selection_auto">Automaticky</string>
+    <string name="exo_track_selection_none">Žádné</string>
+    <string name="exo_track_selection_title_audio">Zvuk</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Prostorový zvuk</string>
+    <string name="exo_track_surround_5_point_1">Prostorový zvuk 5.1</string>
+    <string name="exo_track_surround_7_point_1">Prostorový zvuk 7.1</string>
+    <string name="exo_track_unknown">Neznámé</string>
+    <string name="exo_track_unknown_name">Neznámé (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"Probíhá"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Částečně zaškrtnuto"</string>
-    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Sbalit spodní tabulku"</string>
-    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Zavřít spodní tabulku"</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Sbalit spodní panel"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Zavřít spodní panel"</string>
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Úchyt pro přetažení"</string>
-    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Rozbalit spodní tabulku"</string>
-    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Spodní tabulka"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Rozbalit spodní panel"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Spodní panel"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"Další možnosti"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"Zadané datum"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Zadané datum: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Datum neodpovídá očekávanému vzoru: %1$s"</string>
@@ -57,6 +130,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Přepnout rozbalovací nabídku"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Sbalit lištu"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Rozbalit lištu"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"Další možnosti"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Vyhledávání"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Zavřít"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Upozornění"</string>
@@ -66,17 +140,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Vyberte čas"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Hodina"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d hodin"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"Hodina musí být 1–12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"Hodina musí být 0–23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Vybrat hodinu"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d hodin"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"pro hodinu"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minuta"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"Minuta musí být 0–59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Vyberte minuty"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d minut"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"pro minuty"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Vyberte AM nebo PM"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Přepnout na režim zadávání textu za účelem zadání času"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Pokud chcete zadat čas, přepněte na režim hodin"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"Přepnout na režim zadávání textu"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"Přepnout na režim hodin"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Zobrazit popisek"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Popisek"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Zavřít sloupec"</string>

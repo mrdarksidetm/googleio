@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"अटोफिल"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>०.२५ गुणा</item>
+    <item>०.५ गुणा</item>
+    <item>०.७५ गुणा</item>
+    <item>सामान्य</item>
+    <item>१.२५ गुणा</item>
+    <item>१.५ गुणा</item>
+    <item>२ गुणा</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d सेकेन्ड फास्ट फर्वार्ड गर्नुहोस्</item>
+    <item quantity="other">%d सेकेन्ड फास्ट फर्वार्ड गर्नुहोस्</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d सेकेन्ड रिवाइन्ड गर्नुहोस्</item>
+    <item quantity="other">%d सेकेन्ड रिवाइन्ड गर्नुहोस्</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"अटोफिल"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"अटोफिल"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"जवाफ दिनुहोस्"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"भिडियो"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"काट्नुहोस्"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"अवैद्य इन्पुट"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"पपअप विन्डो"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"ड्रपडाउन मेनु"</string>
+    <string name="exo_controls_cc_disabled_description">सबटाइटलहरू सक्षम पार्नुहोस्</string>
+    <string name="exo_controls_cc_enabled_description">सबटाइटलहरू असक्षम पार्नुहोस्</string>
+    <string name="exo_controls_fastforward_description">फास्ट फर्वार्ड गर्नुहोस्</string>
+    <string name="exo_controls_fullscreen_enter_description">पूर्ण स्क्रिन मोडमा खोल्नुहोस्</string>
+    <string name="exo_controls_fullscreen_exit_description">पूर्ण स्क्रिन मोडबाट बाहिरिनुहोस्</string>
+    <string name="exo_controls_hide">प्लेयरसम्बन्धी नियन्त्रणहरू लुकाउनुहोस्</string>
+    <string name="exo_controls_next_description">अर्को</string>
+    <string name="exo_controls_overflow_hide_description">अतिरिक्त सेटिङहरू लुकाउनुहोस्</string>
+    <string name="exo_controls_overflow_show_description">अतिरिक्त सेटिङहरू देखाउनुहोस्</string>
+    <string name="exo_controls_pause_description">पज गर्नुहोस्</string>
+    <string name="exo_controls_play_description">प्ले गर्नुहोस्</string>
+    <string name="exo_controls_playback_speed">गति</string>
+    <string name="exo_controls_previous_description">अघिल्लो</string>
+    <string name="exo_controls_repeat_all_description">हालको मोड: सबै दोहोरिने। दोहोरिने मोड टगल गर्नुहोस्।</string>
+    <string name="exo_controls_repeat_off_description">हालको मोड: नदोहोरिने। दोहोरिने मोड टगल गर्नुहोस्।</string>
+    <string name="exo_controls_repeat_one_description">हालको मोड: एक पटक दोहोरिने। दोहोरिने मोड टगल गर्नुहोस्।</string>
+    <string name="exo_controls_rewind_description">रिवाइन्ड गर्नुहोस्</string>
+    <string name="exo_controls_seek_bar_description">हालसम्म भिडियो प्ले भएको अवधि</string>
+    <string name="exo_controls_settings_description">सेटिङ</string>
+    <string name="exo_controls_show">प्लेयरसम्बन्धी नियन्त्रणहरू देखाउनुहोस्</string>
+    <string name="exo_controls_shuffle_off_description">सफल मोड अन गर्नुहोस्</string>
+    <string name="exo_controls_shuffle_on_description">सफल मोड अफ गर्नुहोस्</string>
+    <string name="exo_controls_stop_description">रोक्नुहोस्</string>
+    <string name="exo_controls_vr_description">VR मोड</string>
+    <string name="exo_download_completed">डाउनलोड सम्पन्न भयो</string>
+    <string name="exo_download_description">डाउनलोड गर्नुहोस्</string>
+    <string name="exo_download_downloading">डाउनलोड गरिँदै छ</string>
+    <string name="exo_download_failed">डाउनलोड गर्न सकिएन</string>
+    <string name="exo_download_notification_channel_name">डाउनलोडहरू</string>
+    <string name="exo_download_paused">डाउनलोड गर्ने कार्य पज गरियो</string>
+    <string name="exo_download_paused_for_network">इन्टरनेटमा कनेक्ट भएपछि डाउनलोड गरिने छ</string>
+    <string name="exo_download_paused_for_wifi">WiFi मा कनेक्ट भएपछि डाउनलोड गरिने छ</string>
+    <string name="exo_download_removing">डाउनलोडहरू हटाउँदै</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">मोनो</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">वैकल्पिक</string>
+    <string name="exo_track_role_closed_captions">उपशीर्षकहरू</string>
+    <string name="exo_track_role_commentary">टिप्पणी</string>
+    <string name="exo_track_role_supplementary">पूरक</string>
+    <string name="exo_track_selection_auto">स्वतः</string>
+    <string name="exo_track_selection_none">कुनै पनि होइन</string>
+    <string name="exo_track_selection_title_audio">अडियो</string>
+    <string name="exo_track_stereo">स्टेरियो</string>
+    <string name="exo_track_surround">सराउन्ड साउन्ड</string>
+    <string name="exo_track_surround_5_point_1">5.1 सराउन्ड साउन्ड</string>
+    <string name="exo_track_surround_7_point_1">7.1 सराउन्ड साउन्ड</string>
+    <string name="exo_track_unknown">अज्ञात</string>
+    <string name="exo_track_unknown_name">अज्ञात (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"काम हुँदै छ"</string>
     <string msgid="7933458017204019916" name="indeterminate">"आंशिक रूपमा जाँच गरिएको"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"पुछारको पाना कोल्याप्स गर्नुहोस्"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"ड्र्याग ह्यान्डल"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"पुछारको पाना एक्स्पान्ड गर्नुहोस्"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"पुछारको पाना"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"थप विकल्पहरू"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"हालिएको मिति"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"हालिएको मिति: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"हालिएको मितिको प्याटर्न अपेक्षित प्याटर्नसँग मिल्दैन: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"ड्रपडाउन मेनु टगल गर्नुहोस्"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"टुलबार कोल्याप्स गर्नुहोस्"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"टुलबार एक्स्पान्ड गर्नुहोस्"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"थप विकल्पहरू"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"खोज्नुहोस्"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"खारेज गर्नुहोस्"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"अलर्ट"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"समय चयन गर्नुहोस्"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"घण्टा"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d घण्टा"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"घण्टा १ र १२ का बिचमा हुनु पर्छ"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"घण्टा ० र २३ का बिचमा हुनु पर्छ"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"घण्टा चयन गर्नुहोस्"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d बजे"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"घण्टाका लागि"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"मिनेट"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"मिनेट ० र ५९ का बिचमा हुनु पर्छ"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"मिनेट चयन गर्नुहोस्"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d मिनेट"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"मिनेटका लागि"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"AM वा PM चयन गर्नुहोस्"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"समय हाल्न टेक्स्ट इनपुट मोड प्रयोग गर्नुहोस्"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"समय हाल्न क्लक मोड प्रयोग गर्नुहोस्"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"टेक्स्ट इन्पुट मोड प्रयोग गर्नुहोस्"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"घडी मोड प्रयोग गर्नुहोस्"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"टुलटिप देखाउनुहोस्"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"टुलटिप"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"रेल बन्द गर्नुहोस्"</string>

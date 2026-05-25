@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"Automatinis pildymas"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25 k.</item>
+    <item>0,5 k.</item>
+    <item>0,75 k.</item>
+    <item>Įprasta</item>
+    <item>1,25 k.</item>
+    <item>1,5 k.</item>
+    <item>2 k.</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Prasukti pirmyn %d sekundę</item>
+    <item quantity="few">Prasukti pirmyn %d sekundes</item>
+    <item quantity="many">Prasukti pirmyn %d sekundės</item>
+    <item quantity="other">Prasukti pirmyn %d sekundžių</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Atsukti atgal %d sekundę</item>
+    <item quantity="few">Atsukti atgal %d sekundes</item>
+    <item quantity="many">Atsukti atgal %d sekundės</item>
+    <item quantity="other">Atsukti atgal %d sekundžių</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Automatinis pildymas"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Automatinis pildymas"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Atsakyti"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vaizdo įrašas"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Atmesti"</string>
@@ -13,6 +35,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"Netinkama įvestis"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Iššokantysis langas"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Išskleidžiamasis meniu"</string>
+    <string name="exo_controls_cc_disabled_description">Įgalinti subtitrus</string>
+    <string name="exo_controls_cc_enabled_description">Išjungti subtitrus</string>
+    <string name="exo_controls_fastforward_description">Sukti pirmyn</string>
+    <string name="exo_controls_fullscreen_enter_description">Įjungti viso ekrano režimą</string>
+    <string name="exo_controls_fullscreen_exit_description">Išjungti viso ekrano režimą</string>
+    <string name="exo_controls_hide">Slėpti leistuvės valdiklius</string>
+    <string name="exo_controls_next_description">Kitas</string>
+    <string name="exo_controls_overflow_hide_description">Slėpti papildomus nustatymus</string>
+    <string name="exo_controls_overflow_show_description">Rodyti papildomus nustatymus</string>
+    <string name="exo_controls_pause_description">Pristabdyti</string>
+    <string name="exo_controls_play_description">Leisti</string>
+    <string name="exo_controls_playback_speed">Sparta</string>
+    <string name="exo_controls_previous_description">Ankstesnės</string>
+    <string name="exo_controls_repeat_all_description">Dabart. rež.: kart. viską. Perj. pakart. r.</string>
+    <string name="exo_controls_repeat_off_description">Dabart. rež.: nekart. nieko. Perj. pakart. r.</string>
+    <string name="exo_controls_repeat_one_description">Dabart. rež.: kart. vieną. Perj. pakart. r.</string>
+    <string name="exo_controls_rewind_description">Sukti atgal</string>
+    <string name="exo_controls_seek_bar_description">Atkūrimo eiga</string>
+    <string name="exo_controls_settings_description">Nustatymai</string>
+    <string name="exo_controls_show">Rodyti leistuvės valdiklius</string>
+    <string name="exo_controls_shuffle_off_description">Įgalinti maišymo režimą</string>
+    <string name="exo_controls_shuffle_on_description">Išjungti maišymo režimą</string>
+    <string name="exo_controls_stop_description">Sustabdyti</string>
+    <string name="exo_controls_vr_description">VR režimas</string>
+    <string name="exo_download_completed">Atsisiuntimo procesas baigtas</string>
+    <string name="exo_download_description">Atsisiųsti</string>
+    <string name="exo_download_downloading">Atsisiunčiama</string>
+    <string name="exo_download_failed">Nepavyko atsisiųsti</string>
+    <string name="exo_download_notification_channel_name">Atsisiuntimai</string>
+    <string name="exo_download_paused">Atsisiuntimai pristabdyti</string>
+    <string name="exo_download_paused_for_network">Norint tęsti atsis., laukiama tinklo</string>
+    <string name="exo_download_paused_for_wifi">Norint tęsti atsis., laukiama „Wi-Fi“</string>
+    <string name="exo_download_removing">Pašalinami atsisiuntimai</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
+    <string name="exo_track_mono">Monofoninis</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternatyvus</string>
+    <string name="exo_track_role_closed_captions">Subtitrai</string>
+    <string name="exo_track_role_commentary">Komentaras</string>
+    <string name="exo_track_role_supplementary">Papildomas</string>
+    <string name="exo_track_selection_auto">Automatinė</string>
+    <string name="exo_track_selection_none">Nėra</string>
+    <string name="exo_track_selection_title_audio">Garso įrašas</string>
+    <string name="exo_track_stereo">Stereofoninis</string>
+    <string name="exo_track_surround">Erdvinis garsas</string>
+    <string name="exo_track_surround_5_point_1">5.1 erdvinis garsas</string>
+    <string name="exo_track_surround_7_point_1">7.1 erdvinis garsas</string>
+    <string name="exo_track_unknown">Nežinomas</string>
+    <string name="exo_track_unknown_name">Nežinoma (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"Vyksta"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Iš dalies pažymėta"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Sutraukti apatinį lapą"</string>
@@ -20,6 +92,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Vilkimo rankenėlė"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Išskleisti apatinį lapą"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Apatinis lapas"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"Daugiau parinkčių"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"Įvesta data"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Įvesta data: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Data neatitinka numatyto šablono: %1$s"</string>
@@ -57,6 +130,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Perjungti išskleidžiamąjį meniu"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Sutraukti įrankių juostą"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Išskleisti įrankių juostą"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"Daugiau parinkčių"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Paieška"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Atsisakyti"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Įspėjimas"</string>
@@ -66,17 +140,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Pasirinkite laiką"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Valanda"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d val."</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"Valanda turi būti 1–12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"Valanda turi būti 0–23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Pasirinkite valandą"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d val."</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"valandos"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minutė"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"Minutė turi būti 0–59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Pasirinkite minutes"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%d min."</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"minutės"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Pasirinkite „priešpiet“ arba „popiet“"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"popiet"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Laiko įvestį pateikti perjungus į teksto įvesties režimą"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Laiko įvestį pateikti perjungus į laikrodžio režimą"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"Perjungti į teksto įvesties režimą"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"Perjungti į laikrodžio režimą"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Rodyti patarimą"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Patarimas"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Uždaryti juostą"</string>

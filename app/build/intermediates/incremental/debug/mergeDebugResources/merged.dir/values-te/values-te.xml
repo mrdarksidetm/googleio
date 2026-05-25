@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"ఆటోఫిల్"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>సాధారణం</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d సెకండ్ వేగంగా ఫార్వర్డ్ చేయండి</item>
+    <item quantity="other">%d సెకన్లు వేగంగా ఫార్వర్డ్ చేయండి</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d సెకండ్ రివైండ్ చేయండి</item>
+    <item quantity="other">%d సెకన్లు రివైండ్ చేయండి</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"ఆటోఫిల్"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"ఆటోఫిల్"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"పికప్ చేయండి"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"వీడియో కాల్"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"కట్ చేయండి"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"ఇన్‌పుట్ చెల్లదు"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"పాప్-అప్ విండో"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"డ్రాప్‌డౌన్ మెనూ"</string>
+    <string name="exo_controls_cc_disabled_description">ఉప శీర్షికలను ఎనేబుల్ చేయి</string>
+    <string name="exo_controls_cc_enabled_description">ఉప శీర్షికలను డిజేబుల్ చేయి</string>
+    <string name="exo_controls_fastforward_description">వేగంగా ఫార్వర్డ్ చేయండి</string>
+    <string name="exo_controls_fullscreen_enter_description">ఫుల్ స్క్రీన్‌లోకి ప్రవేశించు</string>
+    <string name="exo_controls_fullscreen_exit_description">ఫుల్ స్క్రీన్ నుండి నిష్క్రమించండి</string>
+    <string name="exo_controls_hide">ప్లేయర్ నియంత్రణలను దాచిపెట్టు</string>
+    <string name="exo_controls_next_description">తర్వాత</string>
+    <string name="exo_controls_overflow_hide_description">అదనపు సెట్టింగ్‌లను దాచు</string>
+    <string name="exo_controls_overflow_show_description">అదనపు సెట్టింగ్‌లను చూపు</string>
+    <string name="exo_controls_pause_description">పాజ్ చేయండి</string>
+    <string name="exo_controls_play_description">ప్లే చేయండి</string>
+    <string name="exo_controls_playback_speed">వేగం</string>
+    <string name="exo_controls_previous_description">మునుపటి</string>
+    <string name="exo_controls_repeat_all_description">ప్రస్తుత మోడ్: అన్నింటిని రిపీట్‌ చేయండి. రిపీట్‌ మోడ్‌ను టోగుల్ చేయండి.</string>
+    <string name="exo_controls_repeat_off_description">ప్రస్తుత మోడ్: ఏదీ రిపీట్‌ చేయవద్దు. రిపీట్‌ మోడ్‌ను టోగుల్ చేయండి.</string>
+    <string name="exo_controls_repeat_one_description">ప్రస్తుత మోడ్: ఒకదానిని రిపీట్‌ చేయండి. రిపీట్‌ మోడ్‌ను టోగుల్ చేయండి.</string>
+    <string name="exo_controls_rewind_description">రివైండ్ చేయండి</string>
+    <string name="exo_controls_seek_bar_description">ప్లేబ్యాక్ ప్రోగ్రెస్</string>
+    <string name="exo_controls_settings_description">సెట్టింగ్‌లు</string>
+    <string name="exo_controls_show">ప్లేయర్ నియంత్రణలను చూపు</string>
+    <string name="exo_controls_shuffle_off_description">షఫుల్ మోడ్‌ను ఎనేబుల్ చేయండి</string>
+    <string name="exo_controls_shuffle_on_description">షఫుల్ మోడ్‌ను డిజేబుల్ చేయండి</string>
+    <string name="exo_controls_stop_description">ఆపండి</string>
+    <string name="exo_controls_vr_description">వర్చువల్ రియాలిటీ మోడ్</string>
+    <string name="exo_download_completed">డౌన్‌లోడ్ పూర్తయింది</string>
+    <string name="exo_download_description">డౌన్‌లోడ్ చేయి</string>
+    <string name="exo_download_downloading">డౌన్‌లోడ్ చేస్తోంది</string>
+    <string name="exo_download_failed">డౌన్‌లోడ్ విఫలమైంది</string>
+    <string name="exo_download_notification_channel_name">డౌన్‌లోడ్‌లు</string>
+    <string name="exo_download_paused">డౌన్‌లోడ్‌లు పాజ్ చేయబడ్డాయి</string>
+    <string name="exo_download_paused_for_network">డౌన్‌లోడ్స్ నెట్‌వర్క్ కోసం చూస్తున్నాయి</string>
+    <string name="exo_download_paused_for_wifi">డౌన్‌లోడ్‌లు WiFi కోసం చూస్తున్నాయి</string>
+    <string name="exo_download_removing">డౌన్‌లోడ్‌లను తీసివేస్తోంది</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">మోనో</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">ప్రత్యామ్నాయం</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">వ్యాఖ్యానం</string>
+    <string name="exo_track_role_supplementary">అనుబంధితం</string>
+    <string name="exo_track_selection_auto">స్వీయ</string>
+    <string name="exo_track_selection_none">ఏదీ కాదు</string>
+    <string name="exo_track_selection_title_audio">ఆడియో</string>
+    <string name="exo_track_stereo">స్టీరియో</string>
+    <string name="exo_track_surround">సరౌండ్ ధ్వని</string>
+    <string name="exo_track_surround_5_point_1">5.1 సరౌండ్ ధ్వని</string>
+    <string name="exo_track_surround_7_point_1">7.1 సరౌండ్ ధ్వని</string>
+    <string name="exo_track_unknown">తెలియదు</string>
+    <string name="exo_track_unknown_name">తెలియదు (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"ప్రోగ్రెస్‌లో ఉంది"</string>
     <string msgid="7933458017204019916" name="indeterminate">"పాక్షికంగా ఎంచుకోబడింది"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"దిగువున ఉన్న షీట్‌ను కుదిస్తుంది"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"లాగే హ్యాండిల్"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"దిగువున ఉన్న షీట్‌ను విస్తరిస్తుంది"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"దిగువున ఉన్న షీట్"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"మరిన్ని ఆప్షన్‌లు"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"ఎంటర్ చేసిన తేదీ"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"ఎంటర్ చేసిన తేదీ: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"తేదీ, ఉండాల్సిన ఫార్మాట్‌తో మ్యాచ్ కాలేదు: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"డ్రాప్‌డౌన్ మెనూను టోగుల్ చేయండి"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"టూల్‌బార్‌ను కుదించండి"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"టూల్‌బార్‌ను విస్తరించండి"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"మరిన్ని ఆప్షన్‌లు"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"సెర్చ్ చేయండి"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"విస్మరించండి"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"హెచ్చరిక"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"సమయాన్ని ఎంచుకోండి"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"గంట"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d గంటలు"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"గంటలు 1–12 మధ్య ఉండాలి"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"గంటలు 0–23 మధ్య ఉండాలి"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"గంటలను ఎంచుకోవడానికి వీలు కల్పిస్తుంది"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d గం"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"గంటలను ఎంచుకోవడం కోసం"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"నిమిషం"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"నిమి. 0–59 మధ్య ఉండాలి"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"నిమిషాలను ఎంచుకోండి"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d నిమిషాలు"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"నిమిషాలను ఎంచుకోవడం కోసం"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"AM లేదా PMను ఎంచుకోండి"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"సమయాన్ని ఇన్‌పుట్‌గా ఎంటర్ చేయడం కోసం టెక్స్ట్ ఇన్‌పుట్ మోడ్‌కు మారండి"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"సమయాన్ని ఇన్‌పుట్‌గా ఎంటర్ చేయడం కోసం గడియారం మోడ్‌కు మారండి"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"టెక్స్ట్ ఇన్‌పుట్ మోడ్‌కు మారండి"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"గడియారం మోడ్‌కు మారండి"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"టూల్‌టిప్‌ను చూడండి"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"టూల్‌టిప్"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"రైలును మూసివేయండి"</string>

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"Автотолтыру"</string>
-    <string msgid="881409763997275156" name="call_notification_answer_action">"Жауап"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Қалыпты</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d секунд алға айналдыру</item>
+    <item quantity="other">%d секунд алға айналдыру</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d секунд артқа айналдыру</item>
+    <item quantity="other">%d секунд артқа айналдыру</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Автотолтыру"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Автотолтыру"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Жауап беру"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Бейне"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Қабылдамау"</string>
     <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Тұтқаны қою"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"Енгізілген мән жарамсыз."</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Қалқымалы терезе"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Ашылмалы мәзір"</string>
+    <string name="exo_controls_cc_disabled_description">Субтитрді қосу</string>
+    <string name="exo_controls_cc_enabled_description">Субтитрді өшіру</string>
+    <string name="exo_controls_fastforward_description">Жылдам алға айналдыру</string>
+    <string name="exo_controls_fullscreen_enter_description">Толық экранды режимге кіру</string>
+    <string name="exo_controls_fullscreen_exit_description">Толық экранды режимнен шығу</string>
+    <string name="exo_controls_hide">Ойнатқышты басқару элементтерін жасыру</string>
+    <string name="exo_controls_next_description">Келесі</string>
+    <string name="exo_controls_overflow_hide_description">Қосымша параметрлерді жасыру</string>
+    <string name="exo_controls_overflow_show_description">Қосымша параметрлерді көрсету</string>
+    <string name="exo_controls_pause_description">Кідірту</string>
+    <string name="exo_controls_play_description">Ойнату</string>
+    <string name="exo_controls_playback_speed">Жылдамдық</string>
+    <string name="exo_controls_previous_description">Алдыңғы</string>
+    <string name="exo_controls_repeat_all_description">Қазіргі режим: барлық контент қайталанады Қайталау режимін ауыстыру.</string>
+    <string name="exo_controls_repeat_off_description">Қазіргі режим: еш контент қайталанбайды. Қайталау режимін ауыстыру.</string>
+    <string name="exo_controls_repeat_one_description">Қазіргі режим: бір контент қайталанады. Қайталау режимін ауыстыру.</string>
+    <string name="exo_controls_rewind_description">Артқа айналдыру</string>
+    <string name="exo_controls_seek_bar_description">Ойнату барысы</string>
+    <string name="exo_controls_settings_description">Параметрлер</string>
+    <string name="exo_controls_show">Ойнатқышты басқару элементтерін көрсету</string>
+    <string name="exo_controls_shuffle_off_description">Араластыру режимін қосу</string>
+    <string name="exo_controls_shuffle_on_description">Араластыру режимін өшіру</string>
+    <string name="exo_controls_stop_description">Тоқтату</string>
+    <string name="exo_controls_vr_description">VR режимі</string>
+    <string name="exo_download_completed">Жүктеп алынды</string>
+    <string name="exo_download_description">Жүктеп алу</string>
+    <string name="exo_download_downloading">Жүктеп алынып жатыр</string>
+    <string name="exo_download_failed">Жүктеп алынбады</string>
+    <string name="exo_download_notification_channel_name">Жүктеп алынғандар</string>
+    <string name="exo_download_paused">Жүктеп алу процестері уақытша тоқтады.</string>
+    <string name="exo_download_paused_for_network">Жүктеп алу үшін желіге қосылу керек.</string>
+    <string name="exo_download_paused_for_wifi">Жүктеп алу үшін Wi-Fi-ға қосылу керек.</string>
+    <string name="exo_download_removing">Жүктеп алынғандар өшірілуде</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f МБ/сек</string>
+    <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Балама</string>
+    <string name="exo_track_role_closed_captions">Субтитр</string>
+    <string name="exo_track_role_commentary">Түсіндірме</string>
+    <string name="exo_track_role_supplementary">Қосымша</string>
+    <string name="exo_track_selection_auto">Автоматты</string>
+    <string name="exo_track_selection_none">Жоқ</string>
+    <string name="exo_track_selection_title_audio">Aудиомазмұн</string>
+    <string name="exo_track_stereo">Стерео</string>
+    <string name="exo_track_surround">Көлемді дыбыс</string>
+    <string name="exo_track_surround_5_point_1">5.1 көлемді дыбыс жүйесі</string>
+    <string name="exo_track_surround_7_point_1">7.1 көлемді дыбыс жүйесі</string>
+    <string name="exo_track_unknown">Белгісіз</string>
+    <string name="exo_track_unknown_name">Белгісіз (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"Орындалуда"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Жартылай белгіленді."</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Төменгі парақшаны жию"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Сүйрейтін тетік"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Төменгі парақшаны жаю"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Төменгі парақша"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"Басқа опциялар"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"Деректер енгізілді"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Деректер енгізілді: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Деректер болжалды өрнекке сай келмейді: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Ашылмалы мәзірді жаю/жию"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Құралдар тақтасын жию"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Құралдар тақтасын жаю"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"Басқа опциялар"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Іздеу"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Жабу"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Ескерту"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Уақытты таңдаңыз"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Сағат"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d сағат"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"Сағат 1–12 болуы керек."</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"Сағат 0–23 болуы керек."</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Сағатты таңдау"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d сағат"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"сағат"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Mинут"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"Минут 0–59 болуы керек."</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Минут таңдау"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d минут"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"минут"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"\"AM\" немесе \"PM\" форматын таңдау"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"түстен кейін"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Уақытты енгізу үшін мәтін енгізу режиміне ауысу"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Уақытты енгізу үшін сағат режиміне ауысу"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"Мәтін енгізу режиміне ауысу"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"Сағат режиміне ауысу"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Қалқыма көмекті көрсету"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Қалқыма көмек"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Жолақты жабу"</string>

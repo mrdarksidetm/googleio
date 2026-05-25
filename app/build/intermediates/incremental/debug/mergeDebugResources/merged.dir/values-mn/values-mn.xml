@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"Автоматаар бөглөх"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>Энгийн</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d секундээр хурдан урагшлуулах</item>
+    <item quantity="other">%d секундээр хурдан урагшлуулах</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d секунд ухраах</item>
+    <item quantity="other">%d секунд ухраах</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Автоматаар бөглөх хэсэг"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Автоматаар бөглөх хэсэг"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Хариулах"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Татгалзах"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"Буруу оролт"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Попап цонх"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Унадаг цэс"</string>
+    <string name="exo_controls_cc_disabled_description">Хадмалыг идэвхжүүлэх</string>
+    <string name="exo_controls_cc_enabled_description">Хадмалыг идэвхгүй болгох</string>
+    <string name="exo_controls_fastforward_description">Хурдан урагшлуулах</string>
+    <string name="exo_controls_fullscreen_enter_description">Бүтэн дэлгэцээр харах</string>
+    <string name="exo_controls_fullscreen_exit_description">Бүтэн дэлгэцээс гарах</string>
+    <string name="exo_controls_hide">Тоглуулагчийн удирдлагыг нуух</string>
+    <string name="exo_controls_next_description">Дараах</string>
+    <string name="exo_controls_overflow_hide_description">Нэмэлт тохиргоог нуух</string>
+    <string name="exo_controls_overflow_show_description">Нэмэлт тохиргоог харуулах</string>
+    <string name="exo_controls_pause_description">Түр зогсоох</string>
+    <string name="exo_controls_play_description">Тоглуулах</string>
+    <string name="exo_controls_playback_speed">Хурд</string>
+    <string name="exo_controls_previous_description">Өмнөх</string>
+    <string name="exo_controls_repeat_all_description">Одоогийн горим: Бүгдийг дахин тоглуулна уу. Дахин тоглуулах горимыг асаана уу/унтраана уу.</string>
+    <string name="exo_controls_repeat_off_description">Одоогийн горим: Алийг нь ч дахин тоглуулахгүй. Дахин тоглуулах горимыг асаана уу/унтраана уу.</string>
+    <string name="exo_controls_repeat_one_description">Одоогийн горим: Нэгийг дахин тоглуулна уу. Дахин тоглуулах горимыг асаана уу/унтраана уу.</string>
+    <string name="exo_controls_rewind_description">Ухраах</string>
+    <string name="exo_controls_seek_bar_description">Дахин тоглуулах явц</string>
+    <string name="exo_controls_settings_description">Тохиргоо</string>
+    <string name="exo_controls_show">Тоглуулагчийн удирдлагыг харуулах</string>
+    <string name="exo_controls_shuffle_off_description">Холих горимыг идэвхжүүлэх</string>
+    <string name="exo_controls_shuffle_on_description">Холих горимыг идэвхгүй болгох</string>
+    <string name="exo_controls_stop_description">Зогсоох</string>
+    <string name="exo_controls_vr_description">VR горим</string>
+    <string name="exo_download_completed">Татаж дууссан</string>
+    <string name="exo_download_description">Татах</string>
+    <string name="exo_download_downloading">Татаж байна</string>
+    <string name="exo_download_failed">Татаж чадсангүй</string>
+    <string name="exo_download_notification_channel_name">Татaлт</string>
+    <string name="exo_download_paused">Таталтуудыг түр зогсоосон</string>
+    <string name="exo_download_paused_for_network">Таталтууд сүлжээг хүлээж байна</string>
+    <string name="exo_download_paused_for_wifi">Таталтууд Wi-Fi-г хүлээж байна</string>
+    <string name="exo_download_removing">Татаж авсан файлыг хасаж байна</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Хувилбар</string>
+    <string name="exo_track_role_closed_captions">Хаалттай тайлбар</string>
+    <string name="exo_track_role_commentary">Тайлбар</string>
+    <string name="exo_track_role_supplementary">Нэмэлт</string>
+    <string name="exo_track_selection_auto">Автомат</string>
+    <string name="exo_track_selection_none">Байхгүй</string>
+    <string name="exo_track_selection_title_audio">Дуу</string>
+    <string name="exo_track_stereo">Стерео</string>
+    <string name="exo_track_surround">Орчин тойрны дуу</string>
+    <string name="exo_track_surround_5_point_1">5.1 орчин тойрны дуу</string>
+    <string name="exo_track_surround_7_point_1">7.1 орчин тойрны дуу</string>
+    <string name="exo_track_unknown">Үл мэдэгдэх</string>
+    <string name="exo_track_unknown_name">Тодорхойгүй (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"Үргэлжилж байна"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Хэсэгчлэн тэмдэглэсэн"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Доод хүснэгтийг хураах"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Чирэх бариул"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Доод хүснэгтийг дэлгэх"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Доод хүснэгт"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"Бусад сонголт"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"Оруулсан огноо"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Оруулсан огноо: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Огноо нь тооцоолсон хээтэй таарахгүй байна: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Унадаг цэсийг асаах/унтраах"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Самбарыг хураана уу"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Самбарыг дэлгэнэ үү"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"Бусад сонголт"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Хайх"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Хаах"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Сэрэмжлүүлэг"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Цаг сонгох"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Цаг"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d цаг"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"Цаг нь 1–12 байх ёстой"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"Цаг нь 0–23 байх ёстой"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Цаг сонгох"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d цаг"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"цагийн турш"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Минут"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"Минут нь 0–59 байх ёстой"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Минут сонгох"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d минут"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"минутын турш"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"ҮӨ эсвэл ҮХ эсэхийг сонгоно уу"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"ҮХ"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Цаг оруулахын тулд текст оруулах горим руу сэлгэх"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Цаг оруулахын тулд цагны горим руу сэлгэх"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"Текст оруулах горим руу сэлгэх"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"Цагны горим руу сэлгэх"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Зөвлөмж харуулах"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Зөвлөмж"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Хажуугийн навигацын бүрэлдэхүүнийг хаах"</string>

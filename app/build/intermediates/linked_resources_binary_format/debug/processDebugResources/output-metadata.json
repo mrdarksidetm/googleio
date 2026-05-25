@@ -4,7 +4,7 @@
     "type": "LINKED_RESOURCES_BINARY_FORMAT",
     "kind": "Directory"
   },
-  "applicationId": "com.google.io",
+  "applicationId": "com.google.io.debug",
   "variantName": "debug",
   "elements": [
     {

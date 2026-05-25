@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"自動入力"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>標準</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d 秒早送り</item>
+    <item quantity="other">%d 秒早送り</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d 秒巻き戻し</item>
+    <item quantity="other">%d 秒巻き戻し</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"自動入力"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"自動入力"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"応答"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ビデオ"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"拒否"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"入力値が無効です"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"ポップアップウィンドウ"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"プルダウン メニュー"</string>
+    <string name="exo_controls_cc_disabled_description">字幕の有効化</string>
+    <string name="exo_controls_cc_enabled_description">字幕の無効化</string>
+    <string name="exo_controls_fastforward_description">早送り</string>
+    <string name="exo_controls_fullscreen_enter_description">全画面表示に変更</string>
+    <string name="exo_controls_fullscreen_exit_description">全画面表示を終了</string>
+    <string name="exo_controls_hide">プレーヤーのコントロールを非表示にする</string>
+    <string name="exo_controls_next_description">次へ</string>
+    <string name="exo_controls_overflow_hide_description">その他の設定の非表示</string>
+    <string name="exo_controls_overflow_show_description">その他の設定の表示</string>
+    <string name="exo_controls_pause_description">一時停止</string>
+    <string name="exo_controls_play_description">再生</string>
+    <string name="exo_controls_playback_speed">速度</string>
+    <string name="exo_controls_previous_description">前へ</string>
+    <string name="exo_controls_repeat_all_description">現在: 全曲リピート。モードを切り替えます。</string>
+    <string name="exo_controls_repeat_off_description">現在: リピートなし。モードを切り替えます。</string>
+    <string name="exo_controls_repeat_one_description">現在: 1 曲リピート。モードを切り替えます。</string>
+    <string name="exo_controls_rewind_description">巻き戻し</string>
+    <string name="exo_controls_seek_bar_description">再生中</string>
+    <string name="exo_controls_settings_description">設定</string>
+    <string name="exo_controls_show">プレーヤーのコントロールを表示する</string>
+    <string name="exo_controls_shuffle_off_description">シャッフル モードを有効にする</string>
+    <string name="exo_controls_shuffle_on_description">シャッフル モードを無効にする</string>
+    <string name="exo_controls_stop_description">停止</string>
+    <string name="exo_controls_vr_description">VR モード</string>
+    <string name="exo_download_completed">ダウンロードが完了しました</string>
+    <string name="exo_download_description">ダウンロード</string>
+    <string name="exo_download_downloading">ダウンロードしています</string>
+    <string name="exo_download_failed">ダウンロードに失敗しました</string>
+    <string name="exo_download_notification_channel_name">ダウンロード</string>
+    <string name="exo_download_paused">ダウンロード一時停止</string>
+    <string name="exo_download_paused_for_network">ダウンロード停止: ネットワーク接続中</string>
+    <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
+    <string name="exo_download_removing">ダウンロードを削除しています</string>
+    <string name="exo_item_list">%1$s、%2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">モノラル</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">代替</string>
+    <string name="exo_track_role_closed_captions">字幕</string>
+    <string name="exo_track_role_commentary">解説</string>
+    <string name="exo_track_role_supplementary">補足</string>
+    <string name="exo_track_selection_auto">自動</string>
+    <string name="exo_track_selection_none">なし</string>
+    <string name="exo_track_selection_title_audio">音声</string>
+    <string name="exo_track_stereo">ステレオ</string>
+    <string name="exo_track_surround">サラウンド サウンド</string>
+    <string name="exo_track_surround_5_point_1">5.1 サラウンド サウンド</string>
+    <string name="exo_track_surround_7_point_1">7.1 サラウンド サウンド</string>
+    <string name="exo_track_unknown">不明</string>
+    <string name="exo_track_unknown_name">不明（%1$s）</string>
     <string msgid="6827826412747255547" name="in_progress">"処理しています"</string>
     <string msgid="7933458017204019916" name="indeterminate">"一部 ON"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"ボトムシートを折りたたみます"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"ドラッグ ハンドル"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"ボトムシートを開きます"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"ボトムシート"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"その他のオプション"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"入力された日付"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"入力された日付: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"想定パターンと一致しない日付: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"プルダウン メニューを切り替えます"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"ツールバーを閉じます"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"ツールバーを開きます"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"その他のオプション"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"検索"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"閉じる"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"アラート"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"時刻の選択"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"時間"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d 時間"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"時間は 1～12 の範囲で指定してください"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"時間は 0～23 の範囲で指定してください"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"時刻を選択"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d 時"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"（時間単位）"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"分"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"分は 0～59 の範囲で指定してください"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"分を選択"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d 分"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"（分単位）"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"午前または午後を選択"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"時刻をテキストで入力するモードに切り替えます"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"時刻を時計で入力するモードに切り替えます"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"テキスト入力モードに切り替える"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"時計モードに切り替える"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"ツールチップを表示"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"ツールチップ"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"レールを閉じる"</string>

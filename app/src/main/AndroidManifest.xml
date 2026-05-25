@@ -16,6 +16,18 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <!-- TASK 3: Deep Linking Intent Filter -->
+            <!-- This tells Android: "If someone clicks a link to io.google.com/session/..., 
+                 let our app handle it!" -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                
+                <!-- We define the scheme (https) and the host (io.google.com) -->
+                <data android:scheme="https" android:host="io.google.com" android:pathPrefix="/session" />
+            </intent-filter>
         </activity>
     </application>
 

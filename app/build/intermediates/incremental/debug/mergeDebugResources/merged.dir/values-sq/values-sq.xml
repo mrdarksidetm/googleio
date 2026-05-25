@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"Plotësimi automatik"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Normale</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Shpejt përpara %d sekondë</item>
+    <item quantity="other">Shpejt përpara %d sekonda</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Shko prapa %d sekondë</item>
+    <item quantity="other">Shko prapa %d sekonda</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Plotësimi automatik"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Plotësimi automatik"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Përgjigju"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Refuzo"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"Hyrje e pavlefshme"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Dritare kërcyese"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Menyja me lëshim poshtë"</string>
+    <string name="exo_controls_cc_disabled_description">Aktivizo titrat</string>
+    <string name="exo_controls_cc_enabled_description">Çaktivizo titrat</string>
+    <string name="exo_controls_fastforward_description">Përparo me shpejtësi</string>
+    <string name="exo_controls_fullscreen_enter_description">Hyr në luajtjen me ekran të plotë</string>
+    <string name="exo_controls_fullscreen_exit_description">Dil nga ekrani i plotë</string>
+    <string name="exo_controls_hide">Fshih komandat e luajtësit</string>
+    <string name="exo_controls_next_description">Para</string>
+    <string name="exo_controls_overflow_hide_description">Fshih cilësimet shtesë</string>
+    <string name="exo_controls_overflow_show_description">Shfaq cilësimet shtesë</string>
+    <string name="exo_controls_pause_description">Pauzë</string>
+    <string name="exo_controls_play_description">Luaj</string>
+    <string name="exo_controls_playback_speed">Shpejtësia</string>
+    <string name="exo_controls_previous_description">Prapa</string>
+    <string name="exo_controls_repeat_all_description">Modaliteti aktual: Përsërit të gjitha. Aktivizo/çaktivizo modalitetin e përsëritjes.</string>
+    <string name="exo_controls_repeat_off_description">Modaliteti aktual: Mos përsërit asnjë. Aktivizo/çaktivizo modalitetin e përsëritjes.</string>
+    <string name="exo_controls_repeat_one_description">Modaliteti aktual: Përsërit një. Aktivizo/çaktivizo modalitetin e përsëritjes.</string>
+    <string name="exo_controls_rewind_description">Rikthe</string>
+    <string name="exo_controls_seek_bar_description">Progresi i luajtjes</string>
+    <string name="exo_controls_settings_description">Cilësimet</string>
+    <string name="exo_controls_show">Shfaq komandat e luajtësit</string>
+    <string name="exo_controls_shuffle_off_description">Aktivizo modalitetin e përzierjes</string>
+    <string name="exo_controls_shuffle_on_description">Çaktivizo modalitetin e përzierjes</string>
+    <string name="exo_controls_stop_description">Ndalo</string>
+    <string name="exo_controls_vr_description">Modaliteti RV</string>
+    <string name="exo_download_completed">Shkarkimi përfundoi</string>
+    <string name="exo_download_description">Shkarko</string>
+    <string name="exo_download_downloading">Po shkarkohet</string>
+    <string name="exo_download_failed">Shkarkimi dështoi</string>
+    <string name="exo_download_notification_channel_name">Shkarkimet</string>
+    <string name="exo_download_paused">Shkarkimet u vendosën në pauzë</string>
+    <string name="exo_download_paused_for_network">Shkarkimet në pritje të rrjetit</string>
+    <string name="exo_download_paused_for_wifi">Shkarkimet në pritje të WiFi</string>
+    <string name="exo_download_removing">Shkarkimet po hiqen</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternative</string>
+    <string name="exo_track_role_closed_captions">Titrat</string>
+    <string name="exo_track_role_commentary">Komente</string>
+    <string name="exo_track_role_supplementary">Plotësuese</string>
+    <string name="exo_track_selection_auto">Automatike</string>
+    <string name="exo_track_selection_none">Asnjë</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Tingulli rrethues</string>
+    <string name="exo_track_surround_5_point_1">Tingull rrethues 5.1</string>
+    <string name="exo_track_surround_7_point_1">Tingull rrethues 7.1</string>
+    <string name="exo_track_unknown">E panjohur</string>
+    <string name="exo_track_unknown_name">E panjohur (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"Në vazhdim"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Pjesërisht e shënuar"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Palos fletën e poshtme"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Doreza e zvarritjes"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Zgjero fletën e poshtme"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Fleta e poshtme"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"Opsione të tjera"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"Data e futur"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Data e futur: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Data nuk përputhet me motivin e pritur: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Zgjero/palos menynë me lëshim poshtë"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Palos shiritin e veglave"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Zgjero shiritin e veglave"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"Opsione të tjera"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Kërkimi"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Hiq"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Sinjalizim"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Zgjidh orën"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Ora"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d orë"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"Ora duhet të jetë 1-12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"Ora duhet të jetë 0-23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Zgjidh orën"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"ora %1$d"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"për orë"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minuta"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"Min. duhet të jetë 0-59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Zgjidh minutat"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d minuta"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"për minuta"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Zgjidh paradite ose pasdite"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"pasdite"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Kalo te modaliteti i hyrjes së tekstit për hyrjen e kohës"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Kalo te modaliteti i orës për hyrjen e kohës"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"Kalo te modaliteti i hyrjes së tekstit"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"Kalo te modaliteti i orës"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Shfaq këshillat për veglën"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Këshilla për veglën"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Mbyll shinën"</string>

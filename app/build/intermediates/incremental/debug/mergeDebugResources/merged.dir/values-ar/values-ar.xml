@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"الملء التلقائي"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>أسرع بـ 0.25 مرة</item>
+    <item>أسرع بـ 0.5 مرات</item>
+    <item>أسرع بـ 0.75 مرة</item>
+    <item>عادية</item>
+    <item>أسرع بـ 1.25 مرة</item>
+    <item>أسرع بـ 1.5 مرة</item>
+    <item>أسرع بمرتين</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+    <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+    <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+    <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+    <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+    <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+    <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+    <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+    <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"الملء التلقائي"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"الملء التلقائي"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"ردّ"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"فيديو"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"رفض"</string>
@@ -13,6 +39,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"إدخال غير صالح"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"نافذة منبثقة"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"قائمة منسدلة"</string>
+    <string name="exo_controls_cc_disabled_description">تفعيل الترجمة</string>
+    <string name="exo_controls_cc_enabled_description">إيقاف الترجمة</string>
+    <string name="exo_controls_fastforward_description">تقديم سريع</string>
+    <string name="exo_controls_fullscreen_enter_description">دخول إلى وضع ملء الشاشة</string>
+    <string name="exo_controls_fullscreen_exit_description">خروج من وضع ملء الشاشة</string>
+    <string name="exo_controls_hide">إخفاء عناصر التحكم بالمشغّل</string>
+    <string name="exo_controls_next_description">التالي</string>
+    <string name="exo_controls_overflow_hide_description">إخفاء الإعدادات الإضافية</string>
+    <string name="exo_controls_overflow_show_description">عرض الإعدادات الإضافية</string>
+    <string name="exo_controls_pause_description">إيقاف مؤقت</string>
+    <string name="exo_controls_play_description">تشغيل</string>
+    <string name="exo_controls_playback_speed">السرعة</string>
+    <string name="exo_controls_previous_description">السابق</string>
+    <string name="exo_controls_repeat_all_description">الوضع الحالي: تكرار الكل. تبديل وضع التكرار</string>
+    <string name="exo_controls_repeat_off_description">الوضع الحالي: عدم التكرار. تبديل وضع التكرار</string>
+    <string name="exo_controls_repeat_one_description">الوضع الحالي: التكرار مرة واحدة. تبديل وضع التكرار</string>
+    <string name="exo_controls_rewind_description">ترجيع</string>
+    <string name="exo_controls_seek_bar_description">مستوى تقدُّم التشغيل</string>
+    <string name="exo_controls_settings_description">الإعدادات</string>
+    <string name="exo_controls_show">عرض عناصر التحكم بالمشغّل</string>
+    <string name="exo_controls_shuffle_off_description">تفعيل وضع الترتيب العشوائي</string>
+    <string name="exo_controls_shuffle_on_description">إيقاف وضع الترتيب العشوائي</string>
+    <string name="exo_controls_stop_description">إيقاف</string>
+    <string name="exo_controls_vr_description">وضع VR</string>
+    <string name="exo_download_completed">اكتمل التنزيل</string>
+    <string name="exo_download_description">تنزيل</string>
+    <string name="exo_download_downloading">جارٍ التنزيل.</string>
+    <string name="exo_download_failed">تعذّر التنزيل</string>
+    <string name="exo_download_notification_channel_name">عمليات التنزيل</string>
+    <string name="exo_download_paused">تمّ إيقاف عمليات التنزيل مؤقتًا.</string>
+    <string name="exo_download_paused_for_network">عمليات التنزيل في انتظار الاتصال بالشبكة</string>
+    <string name="exo_download_paused_for_wifi">عمليات التنزيل في انتظار اتصال Wi-Fi.</string>
+    <string name="exo_download_removing">تجري إزالة المحتوى الذي تم تنزيله</string>
+    <string name="exo_item_list">%1$s، %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f ميغابت في الثانية</string>
+    <string name="exo_track_mono">قناة أحادية</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">بديل</string>
+    <string name="exo_track_role_closed_captions">الترجمة والشرح</string>
+    <string name="exo_track_role_commentary">التعليقات</string>
+    <string name="exo_track_role_supplementary">تكميلي</string>
+    <string name="exo_track_selection_auto">تلقائي</string>
+    <string name="exo_track_selection_none">بدون اختيار</string>
+    <string name="exo_track_selection_title_audio">صوت</string>
+    <string name="exo_track_stereo">استريو</string>
+    <string name="exo_track_surround">صوت مجسّم</string>
+    <string name="exo_track_surround_5_point_1">صوت مجسّم 5.1</string>
+    <string name="exo_track_surround_7_point_1">صوت مجسّم 7.1</string>
+    <string name="exo_track_unknown">غير معروف</string>
+    <string name="exo_track_unknown_name">غير معروف (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"قيد التقدم"</string>
     <string msgid="7933458017204019916" name="indeterminate">"تم وضع علامة في المربّع بشكل جزئي"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"تصغير البطاقة السفلية"</string>
@@ -20,6 +96,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"مقبض السحب"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"توسيع البطاقة السفلية"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"بطاقة سفلية"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"خيارات إضافية"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"التاريخ الذي تم إدخاله"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"‏التاريخ الذي تم إدخاله: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"‏لا يتوافق التاريخ مع النمط المتوقَّع: %1$s"</string>
@@ -57,6 +134,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"توسيع القائمة المنسدلة أو تصغيرها"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"تصغير شريط الأدوات"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"توسيع شريط الأدوات"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"خيارات إضافية"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"شريط بحث"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"إغلاق"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"تنبيه"</string>
@@ -66,17 +144,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"اختيار الوقت"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"ساعة"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"‏%1$d ساعة"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"الساعة: بين 1 و12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"الساعة: بين 0 و23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"اختيار الساعة"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"‏الساعة %1$d"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"الساعات"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"دقيقة"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"الدقيقة: بين 0 و59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"اختيار الدقائق"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"‏%1$d دقيقة"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"الدقائق"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"يُرجى اختيار \"ص\" أو \"م\"."</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"م"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"التبديل إلى وضع إدخال النص لإدخال الوقت"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"التبديل إلى وضع الساعة لإدخال الوقت"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"التبديل إلى وضع \"إدخال النص\""</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"التبديل إلى وضع \"الساعة\""</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"إظهار التلميح"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"تلميح"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"إغلاق الشريط"</string>

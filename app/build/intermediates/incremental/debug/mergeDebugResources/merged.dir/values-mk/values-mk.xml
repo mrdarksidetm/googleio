@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"Автоматско пополнување"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25 пати</item>
+    <item>0,5 пати</item>
+    <item>0,75 пати</item>
+    <item>Нормално</item>
+    <item>1,25 пати</item>
+    <item>1,5 пати</item>
+    <item>2 пати</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Премотајте напред %d секунда</item>
+    <item quantity="other">Премотајте напред %d секунди</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Премотајте %d секунда</item>
+    <item quantity="other">Премотајте %d секунди</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Автоматско пополнување"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Автоматско пополнување"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Одговори"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Одбиј"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"Неважечки запис"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Скокачки прозорец"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Паѓачко мени"</string>
+    <string name="exo_controls_cc_disabled_description">Овозможете ги титловите</string>
+    <string name="exo_controls_cc_enabled_description">Оневозможете ги титловите</string>
+    <string name="exo_controls_fastforward_description">Премотај напред</string>
+    <string name="exo_controls_fullscreen_enter_description">Приказ на цел екран</string>
+    <string name="exo_controls_fullscreen_exit_description">Излезете од цел екран</string>
+    <string name="exo_controls_hide">Скриј ги контролите на плеерот</string>
+    <string name="exo_controls_next_description">Следна</string>
+    <string name="exo_controls_overflow_hide_description">Сокријте ги дополнителните поставки</string>
+    <string name="exo_controls_overflow_show_description">Погледнете ги дополнителните поставки</string>
+    <string name="exo_controls_pause_description">Пауза</string>
+    <string name="exo_controls_play_description">Пушти</string>
+    <string name="exo_controls_playback_speed">Брзина</string>
+    <string name="exo_controls_previous_description">Претходна</string>
+    <string name="exo_controls_repeat_all_description">Тековно: повтори ги сите. Вклучи/исклучи повторување.</string>
+    <string name="exo_controls_repeat_off_description">Тековно: не повторувај. Вклучи/исклучи повторување.</string>
+    <string name="exo_controls_repeat_one_description">Тековно: повтори една. Вклучи/исклучи повторување.</string>
+    <string name="exo_controls_rewind_description">Премотај наназад</string>
+    <string name="exo_controls_seek_bar_description">Напредок на репродукцијата</string>
+    <string name="exo_controls_settings_description">Поставки</string>
+    <string name="exo_controls_show">Прикажи ги контролите на плеерот</string>
+    <string name="exo_controls_shuffle_off_description">Овозможи режим на мешање</string>
+    <string name="exo_controls_shuffle_on_description">Оневозможи режим на мешање</string>
+    <string name="exo_controls_stop_description">Сопри</string>
+    <string name="exo_controls_vr_description">Режим на VR</string>
+    <string name="exo_download_completed">Преземањето заврши</string>
+    <string name="exo_download_description">Преземи</string>
+    <string name="exo_download_downloading">Се презема</string>
+    <string name="exo_download_failed">Неуспешно преземање</string>
+    <string name="exo_download_notification_channel_name">Преземања</string>
+    <string name="exo_download_paused">Преземањата се паузирани</string>
+    <string name="exo_download_paused_for_network">Се чека мрежа за преземањата</string>
+    <string name="exo_download_paused_for_wifi">Се чека WiFi за преземањата</string>
+    <string name="exo_download_removing">Се отстрануваат преземањата</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mб/с</string>
+    <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Алтернативна</string>
+    <string name="exo_track_role_closed_captions">Титлови</string>
+    <string name="exo_track_role_commentary">Коментар</string>
+    <string name="exo_track_role_supplementary">Дополнителна</string>
+    <string name="exo_track_selection_auto">Автоматскa</string>
+    <string name="exo_track_selection_none">Нема</string>
+    <string name="exo_track_selection_title_audio">Аудио</string>
+    <string name="exo_track_stereo">Стерео</string>
+    <string name="exo_track_surround">Опкружувачки звук</string>
+    <string name="exo_track_surround_5_point_1">5.1 опкружувачки звук</string>
+    <string name="exo_track_surround_7_point_1">7.1 опкружувачки звук</string>
+    <string name="exo_track_unknown">Непозната</string>
+    <string name="exo_track_unknown_name">Непознато (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"Во тек"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Делумно проверено"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Собери го долниот лист"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Рачка за влечење"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Прошири го долниот лист"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Долен лист"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"Повеќе опции"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"Внесен датум"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Внесен датум: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Не се совпаѓа со очекуваната шема: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Вклучување/исклучување паѓачко мени"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Собери го алатникот"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Прошири го алатникот"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"Повеќе опции"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Пребарување"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Отфрли"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Предупредување"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Изберете време"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Час"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d часа"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"Опсег на часот: 1 – 12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"Опсег на часот: 0 – 23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Изберете час"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d часот"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"за час"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Минута"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"Опсег на мин.: 0 – 59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Изберете минути"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d минути"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"за минути"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Изберете претпладне или попладне"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"попл."</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Префрлете се на „Режим за внесување текст“ за да внесете време"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Префрлете се на „Режим за внесување на часовникот“"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"Префрли на „Режим за внесување текст“"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"Префрли на „Режим за внесување на часовникот“"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Прикажи совет за алатка"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Совет за алатка"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Затворање на шината"</string>

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"Emplena automàticament"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Normal</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Avança ràpidament %d segon</item>
+    <item quantity="other">Avança ràpidament %d segons</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Rebobina %d segon</item>
+    <item quantity="other">Rebobina %d segons</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Emplenament automàtic"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Emplenament automàtic"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Respon"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Rebutja"</string>
@@ -13,13 +31,64 @@
     <string msgid="8038256446254964252" name="default_error_message">"L\'entrada no és vàlida"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Finestra emergent"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Menú desplegable"</string>
+    <string name="exo_controls_cc_disabled_description">Activa els subtítols</string>
+    <string name="exo_controls_cc_enabled_description">Desactiva els subtítols</string>
+    <string name="exo_controls_fastforward_description">Avança ràpidament</string>
+    <string name="exo_controls_fullscreen_enter_description">Entra a la pantalla completa</string>
+    <string name="exo_controls_fullscreen_exit_description">Surt de la pantalla completa</string>
+    <string name="exo_controls_hide">Amaga els controls del reproductor</string>
+    <string name="exo_controls_next_description">Següent</string>
+    <string name="exo_controls_overflow_hide_description">Amaga les opcions de configuració addicionals</string>
+    <string name="exo_controls_overflow_show_description">Mostra opcions de configuració addicionals</string>
+    <string name="exo_controls_pause_description">Posa en pausa</string>
+    <string name="exo_controls_play_description">Reprodueix</string>
+    <string name="exo_controls_playback_speed">Velocitat</string>
+    <string name="exo_controls_previous_description">Anterior</string>
+    <string name="exo_controls_repeat_all_description">Actual: repeteix tot. Commuta mode repetició.</string>
+    <string name="exo_controls_repeat_off_description">Actual: no repeteixis. Commuta mode repetició.</string>
+    <string name="exo_controls_repeat_one_description">Actual: repeteix un. Commuta mode repetició.</string>
+    <string name="exo_controls_rewind_description">Rebobina</string>
+    <string name="exo_controls_seek_bar_description">Progrés de la reproducció</string>
+    <string name="exo_controls_settings_description">Configuració</string>
+    <string name="exo_controls_show">Mostra els controls del reproductor</string>
+    <string name="exo_controls_shuffle_off_description">Activa el mode aleatori</string>
+    <string name="exo_controls_shuffle_on_description">Desactiva el mode aleatori</string>
+    <string name="exo_controls_stop_description">Atura</string>
+    <string name="exo_controls_vr_description">Mode RV</string>
+    <string name="exo_download_completed">S\'ha completat la baixada</string>
+    <string name="exo_download_description">Baixa</string>
+    <string name="exo_download_downloading">S\'està baixant</string>
+    <string name="exo_download_failed">No s\'ha pogut baixar</string>
+    <string name="exo_download_notification_channel_name">Baixades</string>
+    <string name="exo_download_paused">Les baixades estan en pausa</string>
+    <string name="exo_download_paused_for_network">Les baixades estan esperant una xarxa</string>
+    <string name="exo_download_paused_for_wifi">Les baixades estan esperant una Wi‑Fi</string>
+    <string name="exo_download_removing">S\'estan suprimint les baixades</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativa</string>
+    <string name="exo_track_role_closed_captions">Subtítols</string>
+    <string name="exo_track_role_commentary">Comentaris</string>
+    <string name="exo_track_role_supplementary">Complementària</string>
+    <string name="exo_track_selection_auto">Automàtica</string>
+    <string name="exo_track_selection_none">Cap</string>
+    <string name="exo_track_selection_title_audio">Àudio</string>
+    <string name="exo_track_stereo">Estèreo</string>
+    <string name="exo_track_surround">So envoltant</string>
+    <string name="exo_track_surround_5_point_1">So envoltant 5.1</string>
+    <string name="exo_track_surround_7_point_1">So envoltant 7.1</string>
+    <string name="exo_track_unknown">Desconegut</string>
+    <string name="exo_track_unknown_name">Desconegut (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"En curs"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Marcat parcialment"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Replega el full inferior"</string>
     <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Ignora el full inferior"</string>
-    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Ansa per arrossegar"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Ansa de posicionament"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Desplega el full inferior"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Full inferior"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"Més opcions"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"Data introduïda"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Data introduïda: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"La data no coincideix amb el patró esperat: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Commuta el menú desplegable"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Replega la barra d\'eines"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Desplega la barra d\'eines"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"Més opcions"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Cerca"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Ignora"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Alerta"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Selecciona l\'hora"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Hora"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d hores"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"L\'hora ha de ser 1-12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"L\'hora ha de ser 0-23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Selecciona l\'hora"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d en punt"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"per a l\'hora"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minut"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"El minut ha de ser 0-59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Selecciona els minuts"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d minuts"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"per als minuts"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Selecciona AM o PM"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Canvia al mode d\'introducció de text per introduir l\'hora"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Canvia al mode de rellotge per introduir l\'hora"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"Canvia al mode d\'introducció de text"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"Canvia al mode de rellotge"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Mostra la descripció emergent"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Descripció emergent"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Tanca la barra"</string>

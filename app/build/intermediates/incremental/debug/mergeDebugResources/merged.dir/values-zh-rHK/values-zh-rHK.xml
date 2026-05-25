@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"自動填入"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>正常</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">快轉 %d 秒</item>
+    <item quantity="other">快轉 %d 秒</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">倒帶 %d 秒</item>
+    <item quantity="other">倒帶 %d 秒</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"自動填入"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"自動填入"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"接聽"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"視像"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"輸入嘅資料無效"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"彈出式視窗"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"下拉式選單"</string>
+    <string name="exo_controls_cc_disabled_description">啟用字幕</string>
+    <string name="exo_controls_cc_enabled_description">停用字幕</string>
+    <string name="exo_controls_fastforward_description">向前快轉</string>
+    <string name="exo_controls_fullscreen_enter_description">進入全螢幕</string>
+    <string name="exo_controls_fullscreen_exit_description">關閉全螢幕</string>
+    <string name="exo_controls_hide">隱藏播放器控制項</string>
+    <string name="exo_controls_next_description">繼續</string>
+    <string name="exo_controls_overflow_hide_description">隱藏其他設定</string>
+    <string name="exo_controls_overflow_show_description">顯示其他設定</string>
+    <string name="exo_controls_pause_description">暫停</string>
+    <string name="exo_controls_play_description">播放</string>
+    <string name="exo_controls_playback_speed">速度</string>
+    <string name="exo_controls_previous_description">返回</string>
+    <string name="exo_controls_repeat_all_description">宜家嘅模式：重複播放所有項目。轉做重複播放模式。</string>
+    <string name="exo_controls_repeat_off_description">宜家嘅模式：唔重複播放。轉做重複播放模式。</string>
+    <string name="exo_controls_repeat_one_description">宜家嘅模式：重複播放一個項目。轉做重複播放模式。</string>
+    <string name="exo_controls_rewind_description">倒轉</string>
+    <string name="exo_controls_seek_bar_description">播放進度</string>
+    <string name="exo_controls_settings_description">設定</string>
+    <string name="exo_controls_show">顯示播放器控制項</string>
+    <string name="exo_controls_shuffle_off_description">啟用隨機播放模式</string>
+    <string name="exo_controls_shuffle_on_description">停用隨機播放模式</string>
+    <string name="exo_controls_stop_description">停止</string>
+    <string name="exo_controls_vr_description">虛擬現實模式</string>
+    <string name="exo_download_completed">下載完畢</string>
+    <string name="exo_download_description">下載</string>
+    <string name="exo_download_downloading">正在下載</string>
+    <string name="exo_download_failed">下載失敗</string>
+    <string name="exo_download_notification_channel_name">下載內容</string>
+    <string name="exo_download_paused">已暫停下載</string>
+    <string name="exo_download_paused_for_network">正在等待網絡連線以下載檔案</string>
+    <string name="exo_download_paused_for_wifi">正在等待 Wi-Fi 連線以下載檔案</string>
+    <string name="exo_download_removing">正在移除下載內容</string>
+    <string name="exo_item_list">%1$s、%2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">單聲道</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">其他</string>
+    <string name="exo_track_role_closed_captions">字幕</string>
+    <string name="exo_track_role_commentary">評論</string>
+    <string name="exo_track_role_supplementary">附加</string>
+    <string name="exo_track_selection_auto">自動</string>
+    <string name="exo_track_selection_none">無</string>
+    <string name="exo_track_selection_title_audio">音訊</string>
+    <string name="exo_track_stereo">立體聲</string>
+    <string name="exo_track_surround">環迴立體聲</string>
+    <string name="exo_track_surround_5_point_1">5.1 環迴立體聲</string>
+    <string name="exo_track_surround_7_point_1">7.1 環迴立體聲</string>
+    <string name="exo_track_unknown">不明</string>
+    <string name="exo_track_unknown_name">不明 (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"進行中"</string>
     <string msgid="7933458017204019916" name="indeterminate">"部分剔咗"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"收合頁底面板"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"拖曳控點"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"展開頁底面板"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"頁底面板"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"更多選項"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"已輸入的日期"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"已輸入的日期：%1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"日期格式不符：%1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"切換下拉式選單"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"收埋工具列"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"打展工具列"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"更多選項"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"搜尋"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"關閉"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"警示"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"選取時間"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"小時"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d 點"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"小時必須介乎 1 至 12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"小時必須介乎 0 至 23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"選取小時"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d 點"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"小時"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"分鐘"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"分鐘必須介乎 0 至 59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"選取分鐘"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d 分鐘"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"分鐘"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"選取上午或下午"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"下午"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"切換至文字輸入模式即可輸入時間"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"切換至時鐘模式即可輸入時間"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"切換至文字輸入模式"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"切換至時鐘模式"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"顯示提示"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"提示"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"閂咗個欄"</string>

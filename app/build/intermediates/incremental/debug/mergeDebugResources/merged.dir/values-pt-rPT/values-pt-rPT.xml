@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"Preencher automaticamente"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Normal</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Avançar %d segundo</item>
+    <item quantity="other">Avançar %d segundos</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Retroceder %d segundo</item>
+    <item quantity="other">Retroceder %d segundos</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Preenchimento automático"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Preenchimento automático"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Atender"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Recusar"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"Entrada inválida"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Janela pop-up"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"Menu pendente"</string>
+    <string name="exo_controls_cc_disabled_description">Ativar legendas</string>
+    <string name="exo_controls_cc_enabled_description">Desativar legendas</string>
+    <string name="exo_controls_fastforward_description">Avançar</string>
+    <string name="exo_controls_fullscreen_enter_description">Mudar para ecrã inteiro</string>
+    <string name="exo_controls_fullscreen_exit_description">Sair do ecrã inteiro</string>
+    <string name="exo_controls_hide">Ocultar controlos do leitor</string>
+    <string name="exo_controls_next_description">Seguinte</string>
+    <string name="exo_controls_overflow_hide_description">Ocultar definições adicionais</string>
+    <string name="exo_controls_overflow_show_description">Mostrar definições adicionais</string>
+    <string name="exo_controls_pause_description">Pausar</string>
+    <string name="exo_controls_play_description">Reproduzir</string>
+    <string name="exo_controls_playback_speed">Velocidade</string>
+    <string name="exo_controls_previous_description">Anterior</string>
+    <string name="exo_controls_repeat_all_description">Modo atual: repet. tudo. Ative/des. repetição.</string>
+    <string name="exo_controls_repeat_off_description">Modo atual: não repetir. Ative/des. repetição.</string>
+    <string name="exo_controls_repeat_one_description">Modo atual: repetir um. Ative/des. repetição.</string>
+    <string name="exo_controls_rewind_description">Recuar</string>
+    <string name="exo_controls_seek_bar_description">Progresso da reprodução</string>
+    <string name="exo_controls_settings_description">Definições</string>
+    <string name="exo_controls_show">Mostrar controlos do leitor</string>
+    <string name="exo_controls_shuffle_off_description">Ativar modo aleatório</string>
+    <string name="exo_controls_shuffle_on_description">Desativar modo aleatório</string>
+    <string name="exo_controls_stop_description">Parar</string>
+    <string name="exo_controls_vr_description">Modo de RV</string>
+    <string name="exo_download_completed">Transferência concluída</string>
+    <string name="exo_download_description">Transferir</string>
+    <string name="exo_download_downloading">A transferir…</string>
+    <string name="exo_download_failed">Falha na transferência</string>
+    <string name="exo_download_notification_channel_name">Transferências</string>
+    <string name="exo_download_paused">Transferências colocadas em pausa</string>
+    <string name="exo_download_paused_for_network">Transferências a aguardar uma rede</string>
+    <string name="exo_download_paused_for_wifi">Transferências a aguardar Wi-Fi</string>
+    <string name="exo_download_removing">A remover as transferências…</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativa</string>
+    <string name="exo_track_role_closed_captions">Legendas</string>
+    <string name="exo_track_role_commentary">Comentário</string>
+    <string name="exo_track_role_supplementary">Suplementar</string>
+    <string name="exo_track_selection_auto">Automático</string>
+    <string name="exo_track_selection_none">Nenhuma</string>
+    <string name="exo_track_selection_title_audio">Áudio</string>
+    <string name="exo_track_stereo">Estéreo</string>
+    <string name="exo_track_surround">Som surround</string>
+    <string name="exo_track_surround_5_point_1">Som surround 5.1</string>
+    <string name="exo_track_surround_7_point_1">Som surround 7.1</string>
+    <string name="exo_track_unknown">Desconhecida</string>
+    <string name="exo_track_unknown_name">Desconhecido (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"Em curso"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Parcialmente selecionada"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Reduza a secção inferior"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Indicador para arrastar"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Expanda a secção inferior"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Secção inferior"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"Mais opções"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"Data introduzida"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Data introduzida: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"A data não corresponde ao padrão esperado: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Ativar/desativar menu pendente"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"Reduzir barra de ferramentas"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"Expandir barra de ferramentas"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"Mais opções"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"Pesquisar"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Ignorar"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"Alerta"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"Selecione uma hora"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Hora"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d horas"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"A hora tem de ser 1-12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"A hora tem de ser 0-23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Selecionar hora"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d h"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"para hora"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Minuto"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"O minuto tem de ser 0-59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Selecionar minutos"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d minutos"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"para minutos"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Selecione AM ou PM"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"Mude para o método de introdução de texto para a introdução da hora"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"Mude para o modo de relógio para a introdução da hora"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"Mudar para o método de introdução de texto"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"Mudar para o modo de relógio"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Mostrar sugestão"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Sugestão"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"Fechar barra"</string>

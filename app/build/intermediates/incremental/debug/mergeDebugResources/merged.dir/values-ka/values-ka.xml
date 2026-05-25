@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <string msgid="389117264260014992" name="autofill">"ავტომატური შევსება"</string>
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>ჩვეულებრივი</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">წინ გადახვევა %d წამით</item>
+    <item quantity="other">წინ გადახვევა %d წამით</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">უკან გადახვევა %d წამით</item>
+    <item quantity="other">უკან გადახვევა %d წამით</item>
+  </plurals>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"ავტომატური შევსება"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"ავტომატური შევსება"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"პასუხი"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ვიდეო"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"უარყოფა"</string>
@@ -13,6 +31,56 @@
     <string msgid="8038256446254964252" name="default_error_message">"შენატანი არასწორია"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"ამომხტარი ფანჯარა"</string>
     <string msgid="1890207353314751437" name="dropdown_menu">"ჩამოსაშლელი მენიუ"</string>
+    <string name="exo_controls_cc_disabled_description">სუბტიტრების ჩართვა</string>
+    <string name="exo_controls_cc_enabled_description">სუბტიტრების გათიშვა</string>
+    <string name="exo_controls_fastforward_description">წინ გადახვევა</string>
+    <string name="exo_controls_fullscreen_enter_description">სრულეკრანიან რეჟიმში შესვლა</string>
+    <string name="exo_controls_fullscreen_exit_description">სრულეკრანიანი რეჟიმიდან გამოსვლა</string>
+    <string name="exo_controls_hide">დამკვრელის სამართავი ღილაკების დამალვა</string>
+    <string name="exo_controls_next_description">შემდეგ</string>
+    <string name="exo_controls_overflow_hide_description">დამატებითი პარამეტრების დამალვა</string>
+    <string name="exo_controls_overflow_show_description">დამატებითი პარამეტრების ჩვენება</string>
+    <string name="exo_controls_pause_description">პაუზა</string>
+    <string name="exo_controls_play_description">დაკვრა</string>
+    <string name="exo_controls_playback_speed">სიჩქარე</string>
+    <string name="exo_controls_previous_description">წინა</string>
+    <string name="exo_controls_repeat_all_description">მიმდინარე რეჟიმი: ყველას გამეორება. გადართეთ გამეორების რეჟიმი.</string>
+    <string name="exo_controls_repeat_off_description">მიმდინარე რეჟიმი: არაფრის გამეორება. გადართეთ გამეორების რეჟიმი.</string>
+    <string name="exo_controls_repeat_one_description">მიმდინარე რეჟიმი: ერთის გამეორება. გადართეთ გამეორების რეჟიმი.</string>
+    <string name="exo_controls_rewind_description">უკან გადახვევა</string>
+    <string name="exo_controls_seek_bar_description">დაკვრის პროგრესი</string>
+    <string name="exo_controls_settings_description">პარამეტრები</string>
+    <string name="exo_controls_show">დამკვრელის სამართავი ღილაკების ჩვენება</string>
+    <string name="exo_controls_shuffle_off_description">არეულად დაკვრის რეჟიმის ჩართვა</string>
+    <string name="exo_controls_shuffle_on_description">არეულად დაკვრის რეჟიმის გათიშვა</string>
+    <string name="exo_controls_stop_description">შეწყვეტა</string>
+    <string name="exo_controls_vr_description">VR რეჟიმი</string>
+    <string name="exo_download_completed">ჩამოტვირთვა დასრულდა</string>
+    <string name="exo_download_description">ჩამოტვირთვა</string>
+    <string name="exo_download_downloading">მიმდინარეობს ჩამოტვირთვა</string>
+    <string name="exo_download_failed">ჩამოტვირთვა ვერ მოხერხდა</string>
+    <string name="exo_download_notification_channel_name">ჩამოტვირთვები</string>
+    <string name="exo_download_paused">ჩამოტვირთვები დაპაუზებულია</string>
+    <string name="exo_download_paused_for_network">ჩამოტვირთვები ქსელს ელოდება</string>
+    <string name="exo_download_paused_for_wifi">ჩამოტვირთვები Wi-Fi-ს ელოდება</string>
+    <string name="exo_download_removing">მიმდინარეობს ჩამოტვირთვების ამოშლა</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f მბიტ/წმ</string>
+    <string name="exo_track_mono">მონო</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">ალტერნატიული</string>
+    <string name="exo_track_role_closed_captions">დახურული სუბტიტრები</string>
+    <string name="exo_track_role_commentary">კომენტარი</string>
+    <string name="exo_track_role_supplementary">დამატებითი</string>
+    <string name="exo_track_selection_auto">ავტომატური</string>
+    <string name="exo_track_selection_none">არცერთი</string>
+    <string name="exo_track_selection_title_audio">აუდიო</string>
+    <string name="exo_track_stereo">სტერეო</string>
+    <string name="exo_track_surround">მოცულობითი ხმა</string>
+    <string name="exo_track_surround_5_point_1">5.1 მოცულობითი ხმა</string>
+    <string name="exo_track_surround_7_point_1">7.1 მოცულობითი ხმა</string>
+    <string name="exo_track_unknown">უცნობი</string>
+    <string name="exo_track_unknown_name">უცნობი (%1$s)</string>
     <string msgid="6827826412747255547" name="in_progress">"მუშავდება"</string>
     <string msgid="7933458017204019916" name="indeterminate">"ნაწილობრივ შემოწმებულია"</string>
     <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"ქვედა ფურცლის ჩაკეცვა"</string>
@@ -20,6 +88,7 @@
     <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"სახელური ჩავლებისთვის"</string>
     <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"ქვედა ფურცლის გაშლა"</string>
     <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"ქვედა ფურცელი"</string>
+    <string msgid="3990875819916144919" name="m3c_button_group_more_options">"სხვა ვარიანტები"</string>
     <string msgid="8166741421776570875" name="m3c_date_input_headline">"შეყვანილი სახელი"</string>
     <string msgid="229313757840775812" name="m3c_date_input_headline_description">"შეყვანილი თარიღი: %1$s"</string>
     <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"თარიღი არ ემთხვევა მოსალოდნელ ნიმუშს: %1$s"</string>
@@ -57,6 +126,7 @@
     <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"გადართეთ ჩამოსაშლელი მენიუ"</string>
     <string msgid="6072492480528318635" name="m3c_floating_toolbar_collapse">"ხელსაწყოთა ზოლის ჩაკეცვა"</string>
     <string msgid="6880757017246780255" name="m3c_floating_toolbar_expand">"ხელსაწყოთა ზოლის გაფართოება"</string>
+    <string msgid="5546418917311349543" name="m3c_floating_toolbar_more_options">"სხვა ვარიანტები"</string>
     <string msgid="6152806324422087846" name="m3c_search_bar_search">"ძიება"</string>
     <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"დახურვა"</string>
     <string msgid="3868801555855510515" name="m3c_snackbar_pane_title">"გაფრთხილება"</string>
@@ -66,17 +136,20 @@
     <string msgid="7412665527536641863" name="m3c_time_picker_dialog_title">"აირჩიეთ დრო"</string>
     <string msgid="2349193472625211372" name="m3c_time_picker_hour">"საათი"</string>
     <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d საათი"</string>
+    <string msgid="1097071570318581307" name="m3c_time_picker_hour_error">"საათი უნდა იყოს 1-12"</string>
+    <string msgid="7720688108712561777" name="m3c_time_picker_hour_error_24h">"საათი უნდა იყოს 0-23"</string>
     <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"აირჩიეთ საათი"</string>
     <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d სთ"</string>
     <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"ერთი საათით"</string>
     <string msgid="4313071914266462005" name="m3c_time_picker_minute">"წუთი"</string>
+    <string msgid="8576727470211431214" name="m3c_time_picker_minute_error">"წუთი უნდა იყოს 0-59"</string>
     <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"აირჩიეთ წუთები"</string>
     <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d წთ"</string>
     <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"რამდენიმე წუთით"</string>
     <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"აირჩიეთ AM ან PM"</string>
     <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
-    <string msgid="4145073906612931838" name="m3c_time_picker_toggle_keyboard">"დროის შეყვანისთვის ტექსტის შეყვანის რეჟიმზე გადართვა"</string>
-    <string msgid="8841786098195101324" name="m3c_time_picker_toggle_touch">"დროის შეყვანისთვის საათის რეჟიმზე გადართვა"</string>
+    <string msgid="4323189593686596153" name="m3c_time_picker_toggle_keyboard">"ტექსტის შეყვანის რეჟიმზე გადართვა"</string>
+    <string msgid="1380272826693645088" name="m3c_time_picker_toggle_touch">"საათის რეჟიმზე გადართვა"</string>
     <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"მინიშნების ჩვენება"</string>
     <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"მინიშნება"</string>
     <string msgid="6564222473543418073" name="m3c_wide_navigation_rail_close_rail">"არხის დახურვა"</string>
